@@ -5,6 +5,7 @@ const PORT =  3001;
 
 const app = express();
 
+app.use(express.static('build'));
 app.use(express.json());
 app.use(morgan(':method :url :status :response-time ms'));
 app.use(cors());

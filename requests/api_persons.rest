@@ -1,8 +1,8 @@
-GET http://localhost:3001/api/persons
+GET https://phonebook-botcamp.onrender.com/api/persons
 ###
-GET http://localhost:3001/api/persons/3
+GET https://phonebook-botcamp.onrender.com/api/persons/3
 ###
-POST http://localhost:3001/api/persons
+POST https://phonebook-botcamp.onrender.com/api/persons
 Content-Type: application/json
 
 {
@@ -10,4 +10,4 @@ Content-Type: application/json
     "number": "4363654"
 }
 ###
-DELETE http://localhost:3001/api/persons/3
+DELETE https://phonebook-botcamp.onrender.com/api/persons/3

@@ -6,8 +6,8 @@ POST https://phonebook-botcamp.onrender.com/api/persons
 Content-Type: application/json
 
 {
-    "name": "Arto Hellas",
-    "number": "4363654"
+    "name": "Attis Alejandro",
+    "number": "0987800027"
 }
 ###
 DELETE https://phonebook-botcamp.onrender.com/api/persons/3
